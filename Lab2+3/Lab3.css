@@ -1,0 +1,79 @@
+.div1{
+    position: absolute;
+    left: 1310px;
+    top: 10px;
+    height: 2px;
+    width: 200px;
+    background: linear-gradient(90deg,  rgba(0, 68, 255, 0), rgb(0, 68, 255),  rgba(0, 68, 255, 0));
+}
+
+.div2{
+    position: absolute;
+    left: 1310px;
+    top: 745px;
+    height: 2px;
+    width: 200px;
+    background: linear-gradient(90deg, rgba(0, 68, 255, 0), rgb(0, 68, 255),  rgba(0, 68, 255, 0));
+}
+
+.div3{
+    position: absolute;
+    left: 1510px;
+    top: 10px;
+    height: 740px;
+    width: 2px;
+    background: linear-gradient(rgba(0, 68, 255, 0), rgb(0, 68, 255),  rgba(0, 68, 255, 0));
+}
+
+.div4{
+    position: absolute;
+    left: 1310px;
+    top: 10px;
+    height: 740px;
+    width: 2px;
+    background: linear-gradient(rgba(0, 68, 255, 0), rgb(0, 68, 255),  rgba(0, 68, 255, 0));
+}
+
+
+
+.bouncingball{
+    position: absolute;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    top: 20px;
+    left: 1360px;
+    background: red;
+    transition: background 2s, top 2s, left 2s;
+}
+
+.bouncingball{
+    position: absolute;
+    border-radius: 50%;
+    
+    height: 100px;
+    width: 100px;
+    top: 645px;
+    left: 1360px;
+}
+
+.div5 {
+    left: 1360px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: red;
+    position :relative;
+    -webkit-animation: mymove 2s infinite; /* Safari 4.0 - 8.0 */
+    animation: mymove 2s infinite
+}
+
+@-webkit-keyframes mymove {
+    from {top: 0px;}
+    to {top: 645px;}
+}
+
+@keyframes mymove {
+    from {top: 0px;}
+    to {top: 645px;}
+}

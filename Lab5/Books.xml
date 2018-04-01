@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<!DOCTYPE collection SYSTEM "collection.dtd">
+<?xml-stylesheet type="text/xsl" href="Books.xsl"?>
+
+<library>
+
+    <book>
+        <title>Insomnii</title>
+        <author>Irina Binder</author>
+        <category>Romantic</category>
+        <year>2005</year>
+    </book>
+
+    <book>
+        <title>Medicina si nutritie</title>
+        <author>Simona</author>
+        <category>Education</category>
+        <year>2015</year>
+    </book>
+
+    <book>
+        <title>27 Steps</title>
+        <author>Tibi Usieru</author>
+        <category>Autobiography</category>
+        <year>2017</year>
+    </book>
+
+    <book>
+        <title>Personal Memoirs of Ulysses S. Grant</title>
+        <author>Ulysses S. Grant</author>
+        <category>Autobiography</category>
+        <year>2018</year>
+    </book >
+
+    <book>
+        <title>The Three-Body Problem</title>
+        <author>Liu Cixin</author>
+        <category>S.F.</category>
+        <year>2015</year>
+    </book>
+
+    <book>
+        <title>The emperor of all maladies</title>
+        <author>Siddhartha Mukherjee</author>
+        <category>Science</category>
+        <year>2010</year>
+    </book>
+
+    <book>
+        <title>Grimalkin The Witch Assassin</title>
+        <author>Joseph Delaney</author>
+        <category>S.F.</category>
+        <year>2011</year>
+    </book>
+
+    <book>
+        <title>Frankenstein</title>
+        <author>Mary Shelley</author>
+        <category>Horror</category>
+        <year>1823</year>
+    </book>
+
+    <book>
+        <title>Spooks</title>
+        <author>Joseph Delaney</author>
+        <category>S.F.</category>
+        <year>2006</year>
+    </book>
+
+    <book>
+        <title>Septimus Heap</title>
+        <author>Angie Sage</author>
+        <category>S.F.</category>
+        <year>2005</year>
+    </book>
+
+    <book>
+        <title>Jane Eyre</title>
+        <author>Charlotte Bronte</author>
+        <category>Romantic</category>
+        <year>2011</year>
+    </book>
+
+    <book>
+        <title>Dracula</title>
+        <author>Bram Stoker</author>
+        <category>Horror</category>
+        <year>1897</year>
+    </book>
+
+    <book>
+        <title>What if?</title>
+        <author>Randall Munroe</author>
+        <category>Science</category>
+        <year>2014</year>
+    </book>
+
+    <book>
+        <title>The Great Railway Bazaar</title>
+        <author>Paul Theroux</author>
+        <category>Travel</category>
+        <year>1975</year>
+    </book>
+
+    <book>
+        <title>Odiseea</title>
+        <author>Homer</author>
+        <category>Poetry</category>
+        <year>1997</year>
+    </book>
+
+    <book>
+        <title>From Hell</title>
+        <author>Alan Moore</author>
+        <category>Comic</category>
+        <year>1989</year>
+    </book>
+
+    <book>
+        <title>The Punishment She Deserves: A Lynley Novel</title>
+        <author>Elizabeth George</author>
+        <category>Mystery</category>
+        <year>2018</year>
+    </book>
+
+</library>

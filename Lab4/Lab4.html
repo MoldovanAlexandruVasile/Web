@@ -1,0 +1,841 @@
+<html>
+    <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+            <link rel="stylesheet" href="Lab4.css" type="text/css" media="screen">
+            <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylsheet" href="css/bootstrap.min.css">            
+    </head>
+<body class="margindiv">          
+        <div tabindex="0" class="onclick-menu">
+                <div class="onclick-menu-content">
+                    <button onclick="href='https://www.nytimes.com/'">
+                        <a href="https://www.nytimes.com/" class="w3-bar-item w3-button">
+                            Homepage
+                        </a>
+                    </button>
+                    <button onclick="href='https://www.nytimes.com/section/travel?module=SectionsNav&action=click&version=BrowseTree&region=TopBar&contentCollection=Travel&pgtype=Homepage'">
+                        <a href="https://www.nytimes.com/section/travel?module=SectionsNav&action=click&version=BrowseTree&region=TopBar&contentCollection=Travel&pgtype=Homepage" class="w3-bar-item w3-button">
+                            Travel
+                        </a>
+                    </button>
+                    <button onclick="href='https://www.nytimes.com/section/magazine?module=SectionsNav&action=click&version=BrowseTree&region=TopBar&contentCollection=Magazine&pgtype=Homepage'">
+                        <a href="https://www.nytimes.com/section/magazine?module=SectionsNav&action=click&version=BrowseTree&region=TopBar&contentCollection=Magazine&pgtype=Homepage" class="w3-bar-item w3-button">
+                            Magazine
+                        </a>
+                    </button>
+                </div>
+            </div>
+        <div class="ol5"></div>
+        <span>
+            <div class = "searchicon">
+                <img src = "searchicon.png" alt="Search icon can't be displayed" height="15px", width = "15px">
+            </div>
+
+            <input class="input" type="text" name="search" placeholder="SEARCH">
+            
+            <div class="dropdown">
+                    <form action="https://www.nytimes.com/subscription/inyt/lp87JWU.html?campaignId=4KKRL">
+                        <button class = "button" formtarget="_blank" type="Subscribe" onclick="Subscribe">SUBSCRIBE NOW</button>
+                        <div class="dropdown-content">
+                            <img src="Subscribe.png" alt="Subscribe now" width="300" height="300">
+                        </div>
+                    </form>
+            </div>
+
+            <div class = "loginbutton">
+                <form action="https://myaccount.nytimes.com/auth/login?EXIT_URI=https%3A%2F%2Fwww.nytimes.com%2F%3FWT.z_jog%3D1%26hF%3Dt%26vS%3Dundefined">
+                    <button class = "button" formtarget="_blank" type="LogIn" onclick="LogIn">LOG IN</button>
+                </form>
+            </div>
+
+            <div class="myi">
+                <div tabindex="0" class="onclick-settings">
+                    <div class="fa fa-gear" style="font-size:24px">
+                        <div class="onclick-menu-content">
+                            <button onclick="href='https://www.nytimes.com/'"><a href="https://www.nytimes.com/" class="w3-bar-item w3-button">ENGLISH</a></button>
+                            <button onclick="href='https://cn.nytimes.com/?action=Click&region=TopBar&module=EditionToggleToCHNS&pgtype=Homepage'"><a href="https://cn.nytimes.com/?action=Click&region=TopBar&module=EditionToggleToCHNS&pgtype=Homepage" class="w3-bar-item w3-button">中文 (CHINESE)</a></button>
+                            <button onclick="href='https://www.nytimes.com/es/?action=Click&region=TopBar&module=EditionToggleToSpanish&pgtype=Homepage'"><a href="https://www.nytimes.com/es/?action=Click&region=TopBar&module=EditionToggleToSpanish&pgtype=Homepage" class="w3-bar-item w3-button">ESPAÑOL</a></button>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        
+        </span>   
+      
+        <center>
+            <nav class="divnav">
+                <a class="divnavsec" href="https://www.nytimes.com/">ENGLISH</a> &nbsp;&nbsp;
+                <a class="divnavsec" href="https://cn.nytimes.com/?action=Click&region=TopBar&module=EditionToggleToCHNS&pgtype=Homepage">中文 (CHINESE) </a> &nbsp;&nbsp;
+                <a class="divnavsec" href="https://www.nytimes.com/es/?action=Click&region=TopBar&module=EditionToggleToSpanish&pgtype=Homepage">ESPAÑOL</a> &nbsp;&nbsp;
+            </nav>  
+    
+            <svg height="10" width="1000">
+                <line x1="0" y1="0" x2="365 " y2="0" style="stroke:black; stroke-width:1" />
+                <line x1="635" y1="0" x2="1000" y2="0" style="stroke:black; stroke-width:1" />
+            </svg>
+           
+            <h1 class = "h1settings">
+                <a href ="https://www.nytimes.com/">The New York Times</a>
+            </h1>
+            <br>
+            <span>
+                <nav class = "divnav2">
+                    <a>Wednesday, March 28, 2018</a> |
+                    <a class = "divnav2Hover" href="https://www.nytimes.com/section/todayspaper?WT.nav=page&action=Click&contentCollection=TodaysPaper&module=HPMiniNav&pgtype=Homepage&region=TopBar">Today’s Paper</a> |
+                    <a class = "divnav2Hover" href="https://www.nytimes.com/video?action=Click&module=HPMiniNav&region=TopBar&WT.nav=page&contentCollection=Video&pgtype=Homepage">Video</a> |  
+                </nav>
+                <nav class = "divnav3">
+                    <a class = "divnav3Hover">&#9925;23°C</a> |  
+                    <div class="dropdown-content2">
+                        <img src="weather.png" alt="Weather" width="100" height="100">
+                    </div>
+                </nav>
+                <nav class = "divnav4">
+                    <a class = "divnav4Hover">- 0.05% &nbsp;&#11015;</a>
+                    <div class="dropdown-content3">
+                        <img src="graph.png" alt="Graph" width="100" height="100">
+                    </div>
+                </nav>
+            </span> 
+            <svg height="10" width="1000">
+                <line x1="0" y1="0" x2="1000" y2="0" style="stroke:black;stroke-width:5" />
+            </svg>
+        </center>
+        <center>
+            <nav>
+                    <a target="_blank" class = "changeBackground" href="https://www.nytimes.com/section/world?action=click&pgtype=Homepage&region=TopBar&module=HPMiniNav&contentCollection=World&WT.nav=page">World</a>&nbsp;
+                    <a target="_blank" class = "changeBackground" href="https://www.nytimes.com/section/us?action=click&pgtype=Homepage&region=TopBar&module=HPMiniNav&contentCollection=U.S.&WT.nav=page">U.S.</a>&nbsp;
+                    <a target="_blank" class = "changeBackground" href="https://www.nytimes.com/section/politics?action=click&pgtype=Homepage&region=TopBar&module=HPMiniNav&contentCollection=Politics&WT.nav=page">Politics</a>&nbsp;
+                    <a target="_blank" class = "changeBackground" href="https://www.nytimes.com/section/nyregion?action=click&pgtype=Homepage&region=TopBar&module=HPMiniNav&contentCollection=N.Y.&WT.nav=page">N.Y.</a>&nbsp;
+                    <a target="_blank" class = "changeBackground" href="https://www.nytimes.com/section/business?action=click&pgtype=Homepage&region=TopBar&module=HPMiniNav&contentCollection=Business&WT.nav=page">Business</a>&nbsp;
+                    <a target="_blank" class = "changeBackground" href="https://www.nytimes.com/section/opinion?action=click&pgtype=Homepage&region=TopBar&module=HPMiniNav&contentCollection=Opinion&WT.nav=page">Opinion</a>&nbsp;
+                    <a target="_blank" class = "changeBackground" href="https://www.nytimes.com/section/technology?action=click&pgtype=Homepage&region=TopBar&module=HPMiniNav&contentCollection=Tech&WT.nav=page">Tech</a>&nbsp;
+                    <a target="_blank" class = "changeBackground" href="https://www.nytimes.com/section/science?action=click&pgtype=Homepage&region=TopBar&module=HPMiniNav&contentCollection=Science&WT.nav=page">Science</a>&nbsp;
+                    <a target="_blank" class = "changeBackground" href="https://www.nytimes.com/section/health?action=click&pgtype=Homepage&region=TopBar&module=HPMiniNav&contentCollection=Health&WT.nav=page">Health</a>&nbsp;
+                    <a target="_blank" class = "changeBackground" href="https://www.nytimes.com/section/sports?action=click&pgtype=Homepage&region=TopBar&module=HPMiniNav&contentCollection=Sports&WT.nav=page">Sports</a>&nbsp;
+                    <a target="_blank" class = "changeBackground" href="https://www.nytimes.com/section/arts?action=click&pgtype=Homepage&region=TopBar&module=HPMiniNav&contentCollection=Arts&WT.nav=page">Arts</a>&nbsp;
+                    <a target="_blank" class = "changeBackground" href="https://www.nytimes.com/section/books?action=click&pgtype=Homepage&region=TopBar&module=HPMiniNav&contentCollection=Books&WT.nav=page">Books</a>&nbsp;
+                    <a target="_blank" class = "changeBackground" href="https://www.nytimes.com/section/fashion?action=click&pgtype=Homepage&region=TopBar&module=HPMiniNav&contentCollection=Style&WT.nav=page">Style</a>&nbsp;
+                    <a target="_blank" class = "changeBackground" href="https://www.nytimes.com/section/food?WT.nav=page&action=click&contentCollection=Food&module=HPMiniNav&pgtype=Homepage&region=TopBar">Food</a>&nbsp;
+                    <a target="_blank" class = "changeBackground" href="https://www.nytimes.com/section/travel?action=click&pgtype=Homepage&region=TopBar&module=HPMiniNav&contentCollection=Travel&WT.nav=page">Travel</a>&nbsp;
+                    <a target="_blank" class = "changeBackground" href="https://www.nytimes.com/section/magazine?action=click&pgtype=Homepage&region=TopBar&module=HPMiniNav&contentCollection=Magazine&WT.nav=page">Magazine</a>&nbsp;
+                    <a target="_blank" class = "changeBackground" href="https://www.nytimes.com/section/t-magazine?action=click&pgtype=Homepage&region=TopBar&module=HPMiniNav&contentCollection=T%20Magazine&WT.nav=page">T Magazine</a>&nbsp;
+                    
+            </nav>
+            <svg class="margintop" height="10" width="1000">
+                    <line x1="0" y1="0" x2="1000" y2="0" style="stroke:lightgray;stroke-width:1" />
+                </svg>
+        </center>   
+        
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <center>
+            <svg height="10" width="1000">
+                <line x1="0" y1="0" x2="1000" y2="0" style="stroke:lightgray;stroke-width:1" />
+            </svg>
+        </center>
+
+        <div class="row">
+                
+                <div class="column">
+                    <a class="mya" target="_blank" href="https://www.nytimes.com/2018/03/28/us/politics/trump-pardon-michael-flynn-paul-manafort-john-dowd.html?hp&action=click&pgtype=Homepage&clickSource=story-heading&module=first-column-region&region=top-news&WT.nav=top-news">Trump Lawyer Broached Idea of Pardons for 2 Top Ex-Aides</a>
+                    <p class="smallwrite">By MICHAEL S. SCHMIDT, JO BECKER, MARK MAZZETTI, MAGGIE HABERMAN and ADAM GOLDMAN</p>
+                    <ul class="myul">
+                        <li>President Trump’s lawyer discussed pardons for Michael T. Flynn and Paul Manafort last year as the special counsel was building cases against both men.</li>
+                        <li>The episode raises questions about whether the president’s lawyer was trying to influence the advisers and their cooperation with the special counsel.</li>
+                        <li><a class="ulhover" target="_blank" href="https://www.nytimes.com/2018/03/28/us/politics/trump-pardon-michael-flynn-paul-manafort-john-dowd.html?&target=comments&hp&action=click&pgtype=Homepage&modref=HPCommentsRefer&clickSource=story-heading&module=first-column-region&region=top-news&WT.nav=top-news#commentsContainer">732 comments</a></li>
+                    </ul>
+                    <svg height="10" width="1000">
+                        <line x1="0" y1="10" x2="190" y2="10" style="stroke:black; stroke-width:0.5" />
+                        <br>
+                    </svg>
+                    <br>
+                    <a class="mya" target="_blank" href="https://www.nytimes.com/2018/03/29/climate/epa-cafe-auto-pollution-rollback.html?hp&action=click&pgtype=Homepage&clickSource=story-heading&module=first-column-region&region=top-news&WT.nav=top-news">E.P.A. Set to Roll Back Rules Forcing Cars to Be Cleaner</a>
+                    <p class="smallwrite">By CORAL DAVENPORT and HIROKO TABUCHI</p>
+                    <ul class="myul">
+                        <li>The Trump administration, handing automakers a victory, is preparing to announce an effort to weaken strict Obama-era pollution standards.</li>
+                        <li><a class="ulhover" target="_blank" href="https://www.nytimes.com/2018/03/29/climate/epa-cafe-auto-pollution-rollback.html?&target=comments&hp&action=click&pgtype=Homepage&modref=HPCommentsRefer&clickSource=story-heading&module=first-column-region&region=top-news&WT.nav=top-news#commentsContainer">994 comments</a></li>
+                    </ul>
+                    <svg height="10" width="1000">
+                            <line x1="0" y1="10" x2="190" y2="10" style="stroke:black; stroke-width:0.5" />
+                            <br>
+                        </svg>
+                    <br>
+                    <a class="smallwrite">MORE NEWS</a>
+                    <ul class="myul">
+                            <li>
+                                <a class="mya12" target="_blank" href="https://www.nytimes.com/2018/03/30/world/asia/thailand-bus-fire-migrant-workers.html?hp&action=click&pgtype=Homepage&clickSource=story-heading&module=first-column-region&region=top-news&WT.nav=top-news">Thailand Bus Fire Kills 20 Workers From Myanmar</a>
+                            </li>
+                            <li>
+                                <a class="mya12" target="_blank" href="https://www.nytimes.com/2018/03/29/world/europe/sarkozy-trial-corruption-france.html?hp&action=click&pgtype=Homepage&clickSource=story-heading&module=first-column-region&region=top-news&WT.nav=top-news">Sarkozy Faces Trial in French Influence-Peddling Case</a>
+                            </li>
+                            <li>
+                                <a class="mya12" target="_blank" href="https://www.nytimes.com/2018/03/29/us/politics/shulkin-trump-veterans-affairs-privatized-care.html?hp&action=click&pgtype=Homepage&clickSource=story-heading&module=first-column-region&region=top-news&WT.nav=top-news&mtrref=www.nytimes.com&gwh=5F0BBD39FD995068CDD0C41F861579F7&gwt=pay">Veterans Affairs Shake-Up Stirs Fears of Privatized Care</a>
+                            </li>
+                            <li>
+                                <a class="mya12" target="_blank" href="https://www.nytimes.com/2018/03/29/us/politics/jeff-sessions-second-special-counsel.html?hp&action=click&pgtype=Homepage&clickSource=story-heading&module=first-column-region&region=top-news&WT.nav=top-news&mtrref=www.nytimes.com&mtrref=www.nytimes.com&gwh=1928C6CD96718545F40F5B744A658E26&gwt=pay">Sessions Rejects G.O.P. Calls for Second Special Counsel</a>
+                            </li>
+                    </ul>
+
+                </div>
+
+                <div class="vl1"></div>
+
+                <div class="column2">
+                    <center>
+                        <a class="mya2" target="_blank" href="https://www.nytimes.com/interactive/2018/obituaries/overlooked.html?hp&action=click&pgtype=Homepage&clickSource=story-heading&module=photo-spot-region&region=top-news&WT.nav=top-news">OVERLOOKED</a>
+                        <a target="_blank" href="https://www.nytimes.com/2018/03/28/obituaries/overlooked-yu-gwan-sun.html?hp&action=click&pgtype=Homepage&clickSource=image&module=photo-spot-region&region=top-news&WT.nav=top-news">
+                            <br><br>
+                            <div id="slideshow">
+                                <div class="slide-wrapper">
+                                  <div class="slide"><img src="img2.png" alt="OVERLOOKED" height="240px;"></h1></div>
+                                  <div class="slide"><img src="img5.png" alt="OVERLOOKED" height="240px;"></h1></div>
+                                </div>
+                              </div>
+                        </a>
+                        <br><br>
+                        <a class="mya6" target="_blank" href="https://www.nytimes.com/2018/03/28/obituaries/overlooked-yu-gwan-sun.html?hp&action=click&pgtype=Homepage&clickSource=story-heading&module=photo-spot-region&region=top-news&WT.nav=top-news">Overlooked No More: A Teenage <br> Martyr for Korean Independence</a>
+                        <p class="myp2">The Times’s obituaries have been dominated by white men. With Overlooked, we’re adding women’s stories. In 1919, Yu Gwan-sun became the face of a nation’s yearning for freedom.
+                            <a class="smallwrite2"><br>By INYOUNG KANG<br></a>
+                            <a class="mya8" target="_blank" href="https://www.nytimes.com/interactive/2018/obituaries/overlooked.html?hp&action=click&pgtype=Homepage&clickSource=story-heading&module=photo-spot-region&region=top-news&WT.nav=top-news">Read More Obituaries for Remarkable Women We Overlooked</a>
+                        </p>
+                        <svg height="10" width="1000">
+                                <line x1="0" y1="0" x2="390" y2="0" style="stroke:black; stroke-width:0.7" />
+                                <line x1="0" y1="4" x2="390" y2="4" style="stroke:black; stroke-width:0.2" />
+                                <br>  
+                        </svg>
+                        <svg height="10" width="1000">
+                                <line x1="0" y1="10" x2="390" y2="10" style="stroke:black; stroke-width:0.5" />
+                                <br>
+                        </svg>
+                    </center>
+                    <p>
+                            <a class="mya9">Listen to ‘The Daily’: The Prospect of Pardon</a>
+                            <a class="mya10">
+                                <img class="myimg" src="img4.png" alt="Nothing">
+                                <br>
+                                A lawyer for President Trump broached the idea of pardoning Michael T. Flynn and Paul Manafort as the special counsel built cases against both men.
+                            </a>
+                            <br>
+                            <center>
+                                <audio controls>
+                                        <source src="Imagine Dragons - Believer.mp3" type="audio/mpeg">
+                                </audio>
+                            </center>
+                            <br>
+                            <nav>
+                                <a class="mya10">Follow&nbsp;</a>
+                                <a class="mya11" target="_blank" href="https://itunes.apple.com/ro/podcast/the-daily/id1200361736?mt=2&=hp&action=click&pgtype=Homepage&clickSource=story-heading&module=second-column-region&region=top-news&WT.nav=top-news&ign-itsct=1200361736-1200361736&ign-itscg=0176&ign-mpt=uo%3D4">Apple prodcast</a>
+                                <a class="mya11" target="_blank" href="https://play.google.com/music/listen#/sulp">Google Play Music</a>
+                                <a class="mya11" target="_blank" href="https://play.radiopublic.com/the-daily-GMB3yp">Radio Public</a>
+                                <a class="mya11" target="_blank" href="https://rss.art19.com/the-daily?&hp&action=click&pgtype=Homepage&clickSource=story-heading&module=second-column-region&region=top-news&WT.nav=top-news">RSS Feed</a>
+                            </nav>
+                            <svg height="10" width="1000">
+                                    <line x1="0" y1="10" x2="390" y2="10" style="stroke:black; stroke-width:0.8" />
+                                    <br>
+                            </svg>
+                            <br>
+                            <center>
+                                <a class="mya2" target="_blank" href="https://www.nytimes.com/section/smarter-living">SMARTER LIVING</a>
+                            </center>
+
+                            <div class="row">
+                                <div class="column3">
+                                    <a target="_blank" href="https://www.nytimes.com/2018/03/29/books/review/12-new-books-we-recommend-this-week.html?recid=12XloCV0SI63PDrjHWYL7FjPNlF&sl_l=1&sl_rec=thompson_sample_dedup_sticky&contentCollection=smarter-living&mData=articles%255B%255D%3Dhttps%253A%252F%252Fwww.nytimes.com%252F2018%252F03%252F29%252Fbooks%252Freview%252F12-new-books-we-recommend-this-week.html%253Frecid%253D12XloCV0SI63PDrjHWYL7FjPNlF%2526sl_l%253D1%2526sl_rec%253Dthompson_sample_dedup_sticky%26articles%255B%255D%3Dhttps%253A%252F%252Fwww.nytimes.com%252F2018%252F02%252F08%252Fbooks%252Fhow-one-book-changed-my-relationship-with-money.html%253Frecid%253D12XloCV0SI63PDrjHWYL7FjPNlF%2526sl_rec%253Dthompson_sample_dedup_sticky&hp&action=click&pgtype=Homepage&clickSource=story-heading&module=smarterLiving-promo-region&region=smarterLiving-promo-region&WT.nav=smarterLiving-promo-region&mtrref=www.nytimes.com&gwh=0F9DA38A2064EC60B3A1BC89CEDFE9ED&gwt=pay">
+                                        <img class="myimgleft" src="img6.png">
+                                    </a>
+                                    <a class="mya12" target="_blank" href="https://www.nytimes.com/2018/03/29/books/review/12-new-books-we-recommend-this-week.html?recid=12XloCV0SI63PDrjHWYL7FjPNlF&sl_l=1&sl_rec=thompson_sample_dedup_sticky&contentCollection=smarter-living&mData=articles%255B%255D%3Dhttps%253A%252F%252Fwww.nytimes.com%252F2018%252F03%252F29%252Fbooks%252Freview%252F12-new-books-we-recommend-this-week.html%253Frecid%253D12XloCV0SI63PDrjHWYL7FjPNlF%2526sl_l%253D1%2526sl_rec%253Dthompson_sample_dedup_sticky%26articles%255B%255D%3Dhttps%253A%252F%252Fwww.nytimes.com%252F2018%252F02%252F08%252Fbooks%252Fhow-one-book-changed-my-relationship-with-money.html%253Frecid%253D12XloCV0SI63PDrjHWYL7FjPNlF%2526sl_rec%253Dthompson_sample_dedup_sticky&hp&action=click&pgtype=Homepage&clickSource=story-heading&module=smarterLiving-promo-region&region=smarterLiving-promo-region&WT.nav=smarterLiving-promo-region&mtrref=www.nytimes.com&gwh=0F9DA38A2064EC60B3A1BC89CEDFE9ED&gwt=pay">
+                                        12 New Books We Recommend This Week
+                                    </a>
+                                </div>
+                                <div class="column3">
+                                    <a target="_blank" href="https://www.nytimes.com/2018/02/08/books/how-one-book-changed-my-relationship-with-money.html?recid=12XloCV0SI63PDrjHWYL7FjPNlF&sl_rec=thompson_sample_dedup_sticky&contentCollection=smarter-living&mData=articles%255B%255D%3Dhttps%253A%252F%252Fwww.nytimes.com%252F2018%252F03%252F29%252Fbooks%252Freview%252F12-new-books-we-recommend-this-week.html%253Frecid%253D12XloCV0SI63PDrjHWYL7FjPNlF%2526sl_l%253D1%2526sl_rec%253Dthompson_sample_dedup_sticky%26articles%255B%255D%3Dhttps%253A%252F%252Fwww.nytimes.com%252F2018%252F02%252F08%252Fbooks%252Fhow-one-book-changed-my-relationship-with-money.html%253Frecid%253D12XloCV0SI63PDrjHWYL7FjPNlF%2526sl_rec%253Dthompson_sample_dedup_sticky&hp&action=click&pgtype=Homepage&clickSource=story-heading&module=smarterLiving-promo-region&region=smarterLiving-promo-region&WT.nav=smarterLiving-promo-region">
+                                        <img class="myimgleft" src="img7.png">
+                                    </a>
+                                    <a class="mya12" target="_blank" href="https://www.nytimes.com/2018/02/08/books/how-one-book-changed-my-relationship-with-money.html?recid=12XloCV0SI63PDrjHWYL7FjPNlF&sl_rec=thompson_sample_dedup_sticky&contentCollection=smarter-living&mData=articles%255B%255D%3Dhttps%253A%252F%252Fwww.nytimes.com%252F2018%252F03%252F29%252Fbooks%252Freview%252F12-new-books-we-recommend-this-week.html%253Frecid%253D12XloCV0SI63PDrjHWYL7FjPNlF%2526sl_l%253D1%2526sl_rec%253Dthompson_sample_dedup_sticky%26articles%255B%255D%3Dhttps%253A%252F%252Fwww.nytimes.com%252F2018%252F02%252F08%252Fbooks%252Fhow-one-book-changed-my-relationship-with-money.html%253Frecid%253D12XloCV0SI63PDrjHWYL7FjPNlF%2526sl_rec%253Dthompson_sample_dedup_sticky&hp&action=click&pgtype=Homepage&clickSource=story-heading&module=smarterLiving-promo-region&region=smarterLiving-promo-region&WT.nav=smarterLiving-promo-region">
+                                        How One Book Changed My Relationship With Money
+                                    </a>
+                                </div>
+                                
+                            </div>
+                            <svg height="10" width="1000">
+                                    <line x1="1" y1="0" x2="390" y2="1" style="stroke:black; stroke-width:0.5" />
+                                    <br>
+                            </svg>
+                    </p>
+                    <b><a class="smallwrite3" target="_blank" href="https://www.nytimes.com/2018/03/28/climate/climate-change-spending-bill.html?hp&action=click&pgtype=Homepage&clickSource=story-heading&module=second-column-region&region=top-news&WT.nav=top-news">See Latest Edition >></a></b>
+                    <br>
+                    <input class="input2" type="text" name="submit" placeholder="Get newsletter by e-mail">
+                    <button class="button2">
+                         Sign Up
+                    </button>
+                    
+                </div>
+
+                <a class="mya3" target="_blank" href="https://www.nytimes.com/section/opinion?WT.nav=opinion-c-col-top-region&action=click&clickSource=story-heading&hp&module=opinion-c-col-top-region&pgtype=Homepage&region=opinion-c-col-top-region">Opinion</a>
+
+                <div class="vl2"></div>
+
+                <div class="column">
+                    <p class="myp"> 
+                        <a class="mya7" target="_blank" href="https://www.nytimes.com/2018/03/28/opinion/shulkin-veterans-affairs-privatization.html?action=click&pgtype=Homepage&clickSource=story-heading&module=opinion-c-col-left-region&region=opinion-c-col-left-region&WT.nav=opinion-c-col-left-region">David J. Shulkin: Privatizing the V.A. Will Hurt Veterans<br></a>
+                        <a target="_blank" href="https://www.nytimes.com/2018/03/28/opinion/shulkin-veterans-affairs-privatization.html?action=click&pgtype=Homepage&clickSource=story-heading&module=opinion-c-col-left-region&region=opinion-c-col-left-region&WT.nav=opinion-c-col-left-region">
+                            <img class="myimg" src="img1.png" alt="Not available.">
+                        </a>
+                        <a class="smallwrite2">By THOMAS EDSALL<br></a>
+                        <a class="mya5"> Some in the Trump administration saw me as an obstacle to privatization.</a>
+                        <ul class="myul">
+                            <li class="colli">
+                                <a target="_blank" href="https://www.nytimes.com/2018/03/29/opinion/integration-now-integration-forever.html?action=click&pgtype=Homepage&clickSource=story-heading&module=opinion-c-col-left-region&region=opinion-c-col-left-region&WT.nav=opinion-c-col-left-region">Brooks: Integration Now, Integration Forever.</a>
+                            </li>
+                            <br>
+                            <li class="colli">
+                                    <a target="_blank" href="https://www.nytimes.com/2018/03/29/opinion/jeremy-corbyn-anti-semite.html?action=click&pgtype=Homepage&clickSource=story-heading&module=opinion-c-col-left-region&region=opinion-c-col-left-region&WT.nav=opinion-c-col-left-region">Stephens: Jeremy Corbyn, Accidental Anti-Semite.</a>
+                            </li>
+                            <br>
+                            <li class="colli">
+                                    <a target="_blank" href="https://www.nytimes.com/2018/03/28/opinion/shulkin-veterans-affairs-privatization.html?action=click&pgtype=Homepage&clickSource=story-heading&module=opinion-c-col-left-region&region=opinion-c-col-left-region&WT.nav=opinion-c-col-left-region">David J. Shulkin: Privatizing the V.A. Will Hurt Veterans.</a>
+                            </li>
+                        </ul>
+                        <a class="smallwrite3" target="_blank" href="https://www.nytimes.com/section/reader-center?action=click&pgtype=Homepage&module=timesinsider&region=c-column-bottom-span-region">READ CENTER >></a>
+                        <br>
+                        <a class="mya12" target="_blank" href="https://www.nytimes.com/2018/03/28/reader-center/austin-bomber-media-coverage.html?action=click&pgtype=Homepage&module=timesinsider&region=c-column-bottom-span-region">‘He Is Not a Victim’: Our Austin Bomber Coverage Explained</a>
+                    </p>
+                    <br>
+                    <svg height="10" width="1020">
+                        <line x1="-10" y1="0" x2="390" y2="0" style="stroke:black; stroke-width:0.5" />
+                    </svg>
+                    <br>
+                    <div class="ol6"></div>
+                    
+                </div>
+
+                <div class="vl3"></div>
+
+                <div class="column" >
+                    <p class="myp2"> 
+                        <a class="mya7" target="_blank" href="https://www.nytimes.com/2018/03/29/opinion/baseball-stadium-netting.html?action=click&pgtype=Homepage&clickSource=story-heading&module=opinion-c-col-right-region&region=opinion-c-col-right-region&WT.nav=opinion-c-col-right-region">How Much Stadium Netting is Too Much?<br></a>
+                        <a target="_blank" href="https://www.nytimes.com/2018/03/29/opinion/baseball-stadium-netting.html?action=click&pgtype=Homepage&clickSource=story-heading&module=opinion-c-col-right-region&region=opinion-c-col-right-region&WT.nav=opinion-c-col-right-region">
+                            <img class="myimg" src="img3.png" alt="Not available.">
+                        </a>
+                        <a class="smallwrite2">By PETER FUNT<br></a>
+                        <a class="mya5">At what point do safety measures become too extreme?</a>
+                        <ul class="myul">
+                            <li class="colli">
+                                <a target="_blank" href="https://www.nytimes.com/2018/03/30/opinion/iran-hezbollah-iraq-syria.html?action=click&pgtype=Homepage&clickSource=story-heading&module=opinion-c-col-right-region&region=opinion-c-col-right-region&WT.nav=opinion-c-col-right-region">How Iran Used the Hezbollah Model to Dominate Iraq and Syria</a>
+                            </li>
+                            <br>
+                            <li class="colli">
+                                <a target="_blank" href="https://www.nytimes.com/2018/03/29/opinion/ronny-jackson-trade-trump.html?action=click&pgtype=Homepage&clickSource=story-heading&module=opinion-c-col-right-region&region=opinion-c-col-right-region&WT.nav=opinion-c-col-right-region">Krugman: Is It Policy, or Just Reality TV?</a>
+                            </li>
+                            <br>
+                            <li class="colli">
+                                <a target="_blank" href="https://www.nytimes.com/2018/03/29/opinion/roseanne-reboot-trump.html?action=click&pgtype=Homepage&clickSource=story-heading&module=opinion-c-col-right-region&region=opinion-c-col-right-region&WT.nav=opinion-c-col-right-region">The ‘Roseanne’ Reboot Is Funny. I’m Not Going to Keep Watching.</a>
+                            </li>
+                        </ul>
+                        <br>
+                        <a class="smallwrite3" target="_blank" href="https://www.nytimes.com/crosswords?action=click&pgtype=Homepage&module=crosswords&region=c-column-bottom-span-region">THE CROSSWORD »</a>
+                        <br>
+                        <a target="_blank" href="https://www.nytimes.com/crosswords?action=click&pgtype=Homepage&module=crosswords&region=c-column-bottom-span-region">
+                            <img class="myimg" src="img8.png">
+                            <a class="mya12" target="_blank" href="https://www.nytimes.com/crosswords?action=click&pgtype=Homepage&module=crosswords&region=c-column-bottom-span-region">Play Today’s Puzzle</a>
+                        </a>
+                        
+                    </p>
+                </div>
+                <div class="vl4"></div>
+                <svg height="10" width="1020">
+                        <line x1="636" y1="0" x2="1040" y2="0" style="stroke:black; stroke-width:0.5" />
+                        <line x1="636" y1="4" x2="1040" y2="4" style="stroke:black; stroke-width:0.2" />
+                </svg>
+                 <br><br>
+                <div class="mya13">
+                    <div class="myscroll">
+                        <a class="mydiv" target="_blank" href="https://www.nytimes.com/2018/03/29/world/asia/afghan-helmand-hunger-strike.html?module=WatchingPortal&region=c-column-middle-span-region&pgType=Homepage&action=click&mediaId=thumb_square&state=standard&contentPlacement=1&version=internal&contentCollection=www.nytimes.com&contentId=https%3A%2F%2Fwww.nytimes.com%2F2018%2F03%2F29%2Fworld%2Fasia%2Fafghan-helmand-hunger-strike.html&eventName=Watching-article-click&mtrref=www.nytimes.com&gwh=DA6C584580CA1714136B0C36B2741714&gwt=pay">
+                            <img class="myimg" src="img9.png">
+                            <p>Protesters in Helmand Province <b> said they would go on a hunger strike </b> until both the Taliban and the Afghan government declared at least two days of cease-fire.</p>
+                        </a>
+                        <a class="mydiv" target="_blank" href="https://www.nytimes.com/2018/03/30/us/donors-choose-donation-ripple.html?module=WatchingPortal&region=c-column-middle-span-region&pgType=Homepage&action=click&mediaId=thumb_square&state=standard&contentPlacement=9&version=internal&contentCollection=www.nytimes.com&contentId=https%3A%2F%2Fwww.nytimes.com%2F2018%2F03%2F30%2Fus%2Fdonors-choose-donation-ripple.html&eventName=Watching-article-click">
+                            <img class="myimg" src="img23.png" width="75px" height="75px">
+                            <p>DonorsChoose.org, a crowdfunding website for classroom projects, had over 35.000 requests from teachers. This week, <b>every single one was fulfilled</b> by a $29 million donation.</p>
+                        </a>
+                        <a class="mydiv" target="_blank" href="https://www.nytimes.com/2018/03/30/obituaries/anita-shreve-best-selling-novelist-dies-at-71.html">
+                            <img class="myimg" src="img24.png" width="75px" height="75px">
+                            <p><b>Anita Shreve,</b> a best-selling author who explored loss, change and troubled marriages, has died at 71. Her novel "The Pilot's Wife" was chosen for Oprah's Book Club.</p>
+                        </a>
+                        <a class="mydiv" target="_blank" href="">
+                            <img class="myimg" src="img25.png" width="75px" height="75px">
+                            <p>No matter how you feel about <b> the sound of cracking knuckles</b>, you might be surprised to learn that researchers still aren't sure what causes it.</p>
+                        </a>
+                        <a class="mydiv" target="_blank" href="https://www.nytimes.com/2018/03/29/business/media/laura-ingraham-david-hogg.html?module=WatchingPortal&region=c-column-middle-span-region&pgType=Homepage&action=click&mediaId=thumb_square&state=standard&contentPlacement=14&version=internal&contentCollection=www.nytimes.com&contentId=https%3A%2F%2Fwww.nytimes.com%2F2018%2F03%2F29%2Fbusiness%2Fmedia%2Flaura-ingraham-david-hogg.html&eventName=Watching-article-click">
+                            <img class="myimg" src="img26.png" width="75px" height="75px">
+                            <p>The Fox News host Laura Ingraham apologized for <b>mocking a Parkland shooting survivor, </b>David Hogg, after compaines began pulling advertisements from her show.</p>
+                        </a>
+                        <a class="mydiv" target="_blank" href="https://www.nytimes.com/2018/03/27/science/nuclear-bombs-antineutrinos.html?module=WatchingPortal&region=c-column-middle-span-region&pgType=Homepage&action=click&mediaId=thumb_square&state=standard&contentPlacement=16&version=internal&contentCollection=www.nytimes.com&contentId=https%3A%2F%2Fwww.nytimes.com%2F2018%2F03%2F27%2Fscience%2Fnuclear-bombs-antineutrinos.html&eventName=Watching-article-click">
+                            <img class="myimg" src="img27.png" width="75px" height="75px">
+                            <p>What are nations like <b>North Korea doing at hidden nuclear reactors</b>? In a mine shaft in England, researchers plan to test a method to find particles that signal weapon development.</p>
+                        </a>
+                    </div>
+                </div>
+        <br><br>
+        <svg height="10" width="1020">
+                <line x1="0" y1="0" x2="610" y2="0" style="stroke:black; stroke-width:0.5" />
+                <line x1="0" y1="4" x2="610" y2="4" style="stroke:black; stroke-width:0.2" />
+        </svg>
+        
+        <div class="row">
+            <div class="column">
+                <a target="_blank" href="https://www.nytimes.com/2018/03/30/realestate/how-to-avoid-a-renovation-nightmare.html?hp&action=click&pgtype=Homepage&clickSource=story-heading&module=mini-moth&region=top-stories-below&WT.nav=top-stories-below">
+                    <img src="img11.png" width="150" height="150">
+                </a>
+                <a class="mya7" target="_blank" href="https://www.nytimes.com/2018/03/30/realestate/how-to-avoid-a-renovation-nightmare.html?hp&action=click&pgtype=Homepage&clickSource=story-heading&module=mini-moth&region=top-stories-below&WT.nav=top-stories-below">How to Avoid a Renovation Nightmare</a>
+                <a class="mya14">Finding a reliable contractor is crucial for home improvement projects. But what do you do if you get a bad one?</a>
+            </div>
+
+            <div class="vl5"></div>
+
+            <div class="column">
+                <a target="_blank" href="https://www.nytimes.com/2018/03/29/theater/review-three-tall-women-glenda-jackson-albee.html?hp&action=click&pgtype=Homepage&clickSource=story-heading&module=mini-moth&region=top-stories-below&WT.nav=top-stories-below&mtrref=www.nytimes.com&gwh=B17B5D598004CC12524502BEA1D86D73&gwt=pay" >
+                    <img src="img12.png" width="150" height="150">
+                </a>
+                <a class="mya7" target="_blank" href="https://www.nytimes.com/2018/03/29/theater/review-three-tall-women-glenda-jackson-albee.html?hp&action=click&pgtype=Homepage&clickSource=story-heading&module=mini-moth&region=top-stories-below&WT.nav=top-stories-below&mtrref=www.nytimes.com&gwh=B17B5D598004CC12524502BEA1D86D73&gwt=pay">Glenda Jackson Gets <br> Her Queen Lear <br>Moment</a>
+                <br>
+                <a class="mya14">After 23 years in British politics, she returns to the American stage in a revival of “Three Tall Women.”</a>
+            </div>
+
+            <div class="vl6"></div>
+
+            <div class="column">
+                <a target="_blank" href="https://www.nytimes.com/2018/03/29/theater/review-three-tall-women-glenda-jackson-albee.html?hp&action=click&pgtype=Homepage&clickSource=story-heading&module=mini-moth&region=top-stories-below&WT.nav=top-stories-below&mtrref=www.nytimes.com&gwh=B17B5D598004CC12524502BEA1D86D73&gwt=pay" >
+                    <img src="img13.png" width="150" height="150">
+                </a>
+                <a class="mya7" target="_blank" href="https://www.nytimes.com/2018/03/29/theater/review-three-tall-women-glenda-jackson-albee.html?hp&action=click&pgtype=Homepage&clickSource=story-heading&module=mini-moth&region=top-stories-below&WT.nav=top-stories-below&mtrref=www.nytimes.com&gwh=B17B5D598004CC12524502BEA1D86D73&gwt=pay">Glenda Jackson Gets <br> Her Queen Lear <br>Moment</a>
+                <br>
+                <a class="mya14">A young woman facing a health crisis decides to have sex for the first time, while fearing it may be her last time.</a>
+            </div>
+        </div>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <div class="ol"></div>
+        &nbsp;&nbsp;
+        <a class="times" target="_blank" href="https://www.nytimes.com/video?action=click&pgtype=Homepage&version=timesvideo-heading&clickSource=story-heading&module=times-video&region=video-player-region&WT.nav=video-player-region">TIMES</a>
+        <a class="video" target="_blank" href="https://www.nytimes.com/video?action=click&pgtype=Homepage&version=timesvideo-heading&clickSource=story-heading&module=times-video&region=video-player-region&WT.nav=video-player-region">VIDEO</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        
+        <a class="smallwrite4" target="_blank" href="https://www.nytimes.com/video?action=click&pgtype=Homepage&version=timesvideo-heading&clickSource=story-heading&module=times-video&region=video-player-region&WT.nav=video-player-region">
+            EXPLORE ALL VIDEOS »
+        </a><div class="ol4"></div>
+        <br><br>
+        <iframe title="New York Times Video - Embed Player" width="800" height="641" frameborder="0" scrolling="no" allowfullscreen="true" marginheight="0" marginwidth="0" id="nyt_video_player" src="https://static01.nyt.com/video/players/offsite/index.html?videoId=100000005782355"></iframe>
+        <div class="ol2"></div>
+        <div class="ol3"></div>
+        <br>
+        <p class="myp3">INSIDE NYTIMES.COM</p>
+
+        <div class="row">        
+            <div class="column">
+                <a class="smallwrite3" target="_blank" href="https://www.nytimes.com/section/arts/television?action=click&pgtype=Homepage&moduleDetail=inside-nyt-region-0&module=inside-nyt-region&region=inside-nyt-region&WT.nav=inside-nyt-region">TELEVISION <br><br></a>
+                <a target="_blank" href="https://www.nytimes.com/2018/03/30/arts/television/trevor-noah-ronny-jackson-trump.html?action=click&pgtype=Homepage&version=Moth-Visible&moduleDetail=inside-nyt-region-0&module=inside-nyt-region&region=inside-nyt-region&WT.nav=inside-nyt-region&mtrref=www.nytimes.com&gwh=FA4FCBC63ADFD3E4E4F5974FAE99F8A8&gwt=pay"> <img src="img14.png"></a>
+                <a class="divnav2Hover" target="_blank" href="https://www.nytimes.com/2018/03/30/arts/television/trevor-noah-ronny-jackson-trump.html?action=click&pgtype=Homepage&version=Moth-Visible&moduleDetail=inside-nyt-region-0&module=inside-nyt-region&region=inside-nyt-region&WT.nav=inside-nyt-region&mtrref=www.nytimes.com&gwh=FA4FCBC63ADFD3E4E4F5974FAE99F8A8&gwt=pay">Best of Late Night: A Whiff of Cronyism</a>
+            </div>
+            <div class="vl7"></div>
+            <div class="column">
+                    <a class="smallwrite3" target="_blank" href="https://www.nytimes.com/section/science?action=click&pgtype=Homepage&moduleDetail=inside-nyt-region-2&module=inside-nyt-region&region=inside-nyt-region&WT.nav=inside-nyt-region">SCIENCE<br><br></a>
+                    <a target="_blank" href="https://www.nytimes.com/2018/03/28/science/arctic-foxes-inbreeding.html?action=click&pgtype=Homepage&version=Moth-Visible&moduleDetail=inside-nyt-region-2&module=inside-nyt-region&region=inside-nyt-region&WT.nav=inside-nyt-region&mtrref=www.nytimes.com&gwh=449034568F4EB3E4DEBC6E2C7C569F31&gwt=pay"> <img src="img15.png"></a>
+                    <a class="divnav2Hover" target="_blank" href="https://www.nytimes.com/2018/03/28/science/arctic-foxes-inbreeding.html?action=click&pgtype=Homepage&version=Moth-Visible&moduleDetail=inside-nyt-region-2&module=inside-nyt-region&region=inside-nyt-region&WT.nav=inside-nyt-region">Where ‘Blue’ Arctic Foxes Are a Good Thing</a>
+            </div>
+            <div class="vl8"></div>
+            <div class="column">
+                    <a class="smallwrite3" target="_blank" href="https://www.nytimes.com/section/smarter-living?action=click&pgtype=Homepage&moduleDetail=inside-nyt-region-3&module=inside-nyt-region&region=inside-nyt-region&WT.nav=inside-nyt-region">SMARTER LIVING<br><br></a>
+                    <a target="_blank" href="https://www.nytimes.com/2018/03/29/smarter-living/5-cheap-ish-things-to-help-you-become-a-better-baker.html?action=click&pgtype=Homepage&version=Moth-Visible&moduleDetail=inside-nyt-region-3&module=inside-nyt-region&region=inside-nyt-region&WT.nav=inside-nyt-region"> <img src="img16.png"> <br></a>
+                    <a class="divnav2Hover" target="_blank" href="https://www.nytimes.com/2018/03/29/smarter-living/5-cheap-ish-things-to-help-you-become-a-better-baker.html?action=click&pgtype=Homepage&version=Moth-Visible&moduleDetail=inside-nyt-region-3&module=inside-nyt-region&region=inside-nyt-region&WT.nav=inside-nyt-region">5 Cheap(ish) Things to Make You a Better Baker</a>
+            </div>
+            <div class="vl9"></div>
+            <div class="column">
+                    <a class="smallwrite3" target="_blank" href="https://www.nytimes.com/section/books/review?action=click&pgtype=Homepage&moduleDetail=inside-nyt-region-9&module=inside-nyt-region&region=inside-nyt-region&WT.nav=inside-nyt-region">BOOK REVIEW<br><br></a>
+                    <a target="_blank" href="https://www.nytimes.com/2018/03/29/books/review/ernest-cline-by-the-book.html?action=click&pgtype=Homepage&version=Moth-Hidden&moduleDetail=inside-nyt-region-9&module=inside-nyt-region&region=inside-nyt-region&WT.nav=inside-nyt-region"> <img src="img17.png"> <br></a>
+                    <a class="divnav2Hover" target="_blank" href="https://www.nytimes.com/2018/03/29/books/review/ernest-cline-by-the-book.html?action=click&pgtype=Homepage&version=Moth-Hidden&moduleDetail=inside-nyt-region-9&module=inside-nyt-region&region=inside-nyt-region&WT.nav=inside-nyt-region">Ernest Cline: By the Book</a>
+            </div>
+            <div class="vl10"></div>
+            <div class="column">
+                    <a class="smallwrite3" target="_blank" href="https://www.nytimes.com/section/well/family?action=click&pgtype=Homepage&moduleDetail=inside-nyt-region-5&module=inside-nyt-region&region=inside-nyt-region&WT.nav=inside-nyt-region">FAMILY<br><br></a>
+                    <a target="_blank" href="https://www.nytimes.com/2018/03/28/well/family/to-raise-resilient-kids-be-a-resilient-parent.html?action=click&pgtype=Homepage&version=Moth-Visible&moduleDetail=inside-nyt-region-5&module=inside-nyt-region&region=inside-nyt-region&WT.nav=inside-nyt-region&mtrref=www.nytimes.com&gwh=90E45FC1FAF0DC604C8F1D473A871271&gwt=pay"> <img src="img18.png"> <br></a>
+                    <a class="divnav2Hover" target="_blank" href="https://www.nytimes.com/2018/03/29/books/review/ernest-cline-by-the-book.html?action=click&pgtype=Homepage&version=Moth-Hidden&moduleDetail=inside-nyt-region-9&module=inside-nyt-region&region=inside-nyt-region&WT.nav=inside-nyt-region">To Raise Resilient Kids, Be a Resilient Parent</a>
+            </div>
+        </div>
+        <div class="ol7"></div>
+
+        <svg height="10" width="1020">
+            <line x1="0" y1="0" x2="610" y2="0" style="stroke:black; stroke-width:0.5" />
+            <line x1="0" y1="4" x2="610" y2="4" style="stroke:black; stroke-width:0.2" />
+        </svg>
+        
+        <div class="scroll2">
+            <center>
+                <a target="_blank" href="https://nyti.ms/2Gl7I5Z">
+                    <img src="img19.png" width="210px" height="150px">
+                </a>
+
+                <a class="smallwrite2" target="_blank" href="https://nyti.ms/2Gl7I5Z">
+                    Anatomy Of A Scene 2:53              
+                </a>
+            </center>
+            <div class="mydiv2">
+            <a class="mya15" target="_blank" href="https://nyti.ms/2Gl7I5Z">
+                Anatomy of a Scene | ‘Isle of Dogs’           
+            </a>
+            </div>
+            <br>
+            <center>
+                <a target="_blank" href="https://nyti.ms/2GlcjFe">
+                    <img src="img20.png" width="210px" height="150px">
+                </a>
+        
+                <a class="smallwrite2" target="_blank" href="https://nyti.ms/2GlcjFe">
+                    Trump’s Government 2:12             
+                </a>
+            </center>
+                <div class="mydiv2">
+                <a class="mya15" target="_blank" href="https://nyti.ms/2GlcjFe">
+                    Why John Bolton’s 2005 Nomination Sputtered           
+                </a>
+            </div>
+            <br>
+            <center>
+                <a target="_blank" href="https://nyti.ms/2Ge6WUd">
+                    <img src="img21.png" width="210px" height="150px">
+                </a>
+                <a class="smallwrite2" target="_blank" href="https://nyti.ms/2Ge6WUd">
+                    Guns In America 5:09            
+                </a>
+            </center>
+            <div class="mydiv2">
+                <a class="mya15" target="_blank" href="https://nyti.ms/2Ge6WUd">
+                    After Parkland, Turning Trauma Into Change         
+                </a>
+            </div>
+            <br>
+            <center>
+                    <a target="_blank" href="https://nyti.ms/2G1tVSg">
+                        <img src="img22.png" width="210px" height="150px">
+                    </a>
+                    <a class="smallwrite2" target="_blank" href="https://nyti.ms/2G1tVSg">
+                        Technology 2:31            
+                    </a>
+                </center>
+                <div class="mydiv2">
+                    <a class="mya15" target="_blank" href="https://nyti.ms/2G1tVSg">
+                        Why Leaving Facebook Doesn’t Always Mean Quitting       
+                    </a>
+                </div>
+            <br>
+        </div>
+        <div class="vl11"></div>
+        <div class="ol8"></div>
+        <div class="ol9"></div>
+        <div class="vl12"></div>
+        <div class="vl13"></div>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <div class="row">
+            <div class="column">
+                <a class="mya7" target="_blank" href="https://www.nytimes.com/section/world?WT.nav=bottom-well&action=click&hpw&module=well-region&pgtype=Homepage&region=bottom-well&rref">
+                    World >>
+                    <br><br>
+                </a>
+                <a target="_blank" href="https://www.nytimes.com/2018/03/30/world/middleeast/gaza-israel-protest-clashes.html?hpw&rref=world&action=click&pgtype=Homepage&module=well-region&region=bottom-well&WT.nav=bottom-well">
+                    <img class="myimg" src="img28.png">
+                
+                </a>
+                <a class="mya15" target="_blank" href="https://www.nytimes.com/2018/03/30/world/middleeast/gaza-israel-protest-clashes.html?hpw&rref=world&action=click&pgtype=Homepage&module=well-region&region=bottom-well&WT.nav=bottom-well">
+                    Israeli Military Kills 15 Palestinians in Confrontations on Gaza Border
+                </a>
+                <br><br>
+                <a class="mya15" target="_blank" href="https://www.nytimes.com/2018/03/29/world/europe/greece-lesbos-migrant-crisis-moria.html?hpw&rref=world&action=click&pgtype=Homepage&module=well-region&region=bottom-well&WT.nav=bottom-well&mtrref=www.nytimes.com&gwh=59B0D316F5A15E536F7A22606A1574DD&gwt=pay">
+                    Greece’s Island of Despair
+                </a>
+
+                <br><br>
+                <a class="mya15" target="_blank" href="https://www.nytimes.com/2018/03/30/world/americas/travelers-visa-social-media.html?hpw&rref=world&action=click&pgtype=Homepage&module=well-region&region=bottom-well&WT.nav=bottom-well">
+                    14 Million Visitors to U.S. Face Social-Media Screening
+                </a>
+            </div>
+
+            <div class="column">
+                    <a class="mya7" target="_blank" href="https://www.nytimes.com/section/business?WT.nav=bottom-well&action=click&hpw&module=well-region&pgtype=Homepage&region=bottom-well&rref">
+                        Business Day »
+                        <br><br>
+                    </a>
+                    <a target="_blank" href="https://www.nytimes.com/2018/03/30/business/walmart-humana-merger.html?&hpw&rref=business&action=click&pgtype=Homepage&module=well-region&region=bottom-well&WT.nav=bottom-well">
+                        <img class="myimg" src="img29.png">
+                    
+                    </a>
+                    <a class="mya15" target="_blank" href="https://www.nytimes.com/2018/03/30/business/walmart-humana-merger.html?&hpw&rref=business&action=click&pgtype=Homepage&module=well-region&region=bottom-well&WT.nav=bottom-well">
+                        Walmart in Talks <br>to Strengthen Ties to Health Insurer Humana
+                    </a>
+                    <br><br>
+                    <a class="mya15" target="_blank" href="https://www.nytimes.com/2018/03/30/business/economy/trade-nafta-union-pacific.html?hpw&rref=business&action=click&pgtype=Homepage&module=well-region&region=bottom-well&WT.nav=bottom-well">
+                        ‘It’s Factory North America,’ but Trump Could Hobble It
+                    </a>
+        
+                    <br><br>
+                    <a class="mya15" target="_blank" href="https://www.nytimes.com/2018/03/30/world/europe/russian-hacker-us-czech-republic.html?hpw&rref=business&action=click&pgtype=Homepage&module=well-region&region=bottom-well&WT.nav=bottom-well">
+                        Russian Accused of Hacking U.S. Technology Firms Is Extradited
+                    </a>
+            </div>
+            <div class="column">
+                    <a class="mya7" target="_blank" href="https://www.nytimes.com/section/opinion?WT.nav=bottom-well&action=click&hpw&module=well-region&pgtype=Homepage&region=bottom-well&rref">
+                        Opinion »
+                        <br><br>
+                    </a>
+                    <a target="_blank" href="https://www.nytimes.com/interactive/2018/03/30/opinion/gail-collins-april-fools-quiz.html?hpw&rref=opinion&action=click&pgtype=Homepage&module=well-region&region=bottom-well&WT.nav=bottom-well">
+                        <img class="myimg" src="img30.png">
+                    
+                    </a>
+                    <a class="mya15" target="_blank" href="https://www.nytimes.com/interactive/2018/03/30/opinion/gail-collins-april-fools-quiz.html?&hpw&rref=opinion&action=click&pgtype=Homepage&module=well-region&region=bottom-well&WT.nav=bottom-well">
+                        Trump Is President. April Fool! (A Holiday Quiz)
+                    </a>
+                    <br><br><br>
+                    <a class="mya15" target="_blank" href="https://www.nytimes.com/2018/03/30/opinion/a-colder-war-with-russia.html?hpw&rref=opinion&action=click&pgtype=Homepage&module=well-region&region=bottom-well&WT.nav=bottom-well">
+                        Editorial: A Colder War With Russia?
+                    </a>
+        
+                    <br><br>
+                    <a class="mya15" target="_blank" href="https://www.nytimes.com/2018/03/30/opinion/emissions-standards-auto-industry.html?&hpw&rref=opinion&action=click&pgtype=Homepage&module=well-region&region=bottom-well&WT.nav=bottom-well">
+                        Op-Ed Contributor: How Looser Emissions Standards Hurt the Auto Industry
+                    </a>
+            </div> 
+
+            <div class="column">
+                <a class="mya15" target="_blank" href="https://www.nytimes.com/section/realestate?action=click&pgtype=Homepage&clickSource=story-heading&module=real-estate-left-region&region=real-estate-left-region&WT.nav=real-estate-left-region">
+                    REAL ESTATE >>
+                </a>
+                <br>
+              
+                <a class="smallwrite">ON THE MARKET</a>
+          
+                <br><br>
+                <a class="mya16" target="_blank" href="https://www.nytimes.com/2018/03/29/realestate/homes-for-sale-in-manhattan-and-brooklyn.html?action=click&pgtype=Homepage&clickSource=story-heading&module=real-estate-left-region&region=real-estate-left-region&WT.nav=real-estate-left-region">
+                    Homes for Sale in Manhattan and Brooklyn
+                </a>
+           
+                <a class="smallwrite2">Reported by C. J. HUGHES</a>
+                <br><br>
+                <a target="_blank" href="https://www.nytimes.com/2018/03/29/realestate/homes-for-sale-in-manhattan-and-brooklyn.html?action=click&pgtype=Homepage&clickSource=thumb&module=real-estate-left-region&region=real-estate-left-region&WT.nav=real-estate-left-region">
+                    <img class="myimg" src="img31.png">  
+                    <a class="mya14">This week’s properties are in Washington Heights, Murray Hill and Dumbo, Brooklyn.</a>                  
+                </a>
+                <br>
+                <a class="smallwrite5" target="_blank" href="https://www.nytimes.com/2018/03/29/realestate/homes-for-sale-in-manhattan-and-brooklyn.html?hp&target=comments&action=click&pgtype=Homepage&modref=HPCommentsRefer&clickSource=story-heading&module=real-estate-left-region&region=real-estate-left-region&WT.nav=real-estate-left-region#commentsContainer">
+                        &#128898; Comments
+                </a>
+                <ul class="myul">
+                    <li>
+                        <a class="mya15" target="_blank" href="https://www.nytimes.com/real-estate/find-a-home?action=click&pgtype=Homepage&clickSource=story-heading&module=real-estate-left-region&region=real-estate-left-region&WT.nav=real-estate-left-region">
+                            Search for Homes for Sale or Rent
+                        </a>
+                    </li>
+                    <li>
+                        <a class="mya15" target="_blank" href="https://www.nytimes.com/real-estate/mortgage-calculator?action=click&pgtype=Homepage&clickSource=story-heading&module=real-estate-left-region&region=real-estate-left-region&WT.nav=real-estate-left-region">
+                            Mortgage Calculator
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="ol10"></div>
+        <div class="ol11"></div>
+        <div class="ol12"></div>
+        <div class="ol13"></div>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <h2 class="h2settings">
+            <a target="_blank" href="https://www.nytimes.com/?action=click&pgtype=Homepage&region=SiteIndex&module=SiteIndex&contentCollection=NYTlogoHome&WT.nav=footer-nav">The New York Times</a>
+        </h2>
+        <br>
+        <div class="row">
+            <div class="column4">
+                <a class="mya14"><b>NEWS</b></a>
+                <br><br>
+                <a class="mya15" target="_blank" href="https://www.nytimes.com/section/world?action=click&pgtype=Homepage&region=SiteIndex&module=SiteIndex&contentCollection=World&WT.nav=footer-nav">
+                    World
+                </a>
+                <br>
+                <a class="mya15" target="_blank" href="https://www.nytimes.com/section/us?action=click&pgtype=Homepage&region=SiteIndex&module=SiteIndex&contentCollection=U.S.&WT.nav=footer-nav">
+                    U.S.
+                </a>
+                <br>
+                <a class="mya15" target="_blank" href="https://www.nytimes.com/section/politics?action=click&pgtype=Homepage&region=SiteIndex&module=SiteIndex&contentCollection=Politics&WT.nav=footer-nav">
+                    Politics
+                </a>
+                <br>
+                <a class="mya15" target="_blank" href="https://www.nytimes.com/section/nyregion?action=click&pgtype=Homepage&region=SiteIndex&module=SiteIndex&contentCollection=N.Y.&WT.nav=footer-nav">
+                    N.Y.
+                </a>
+            </div>
+
+            <div class="column4">
+                    <a class="mya14"><b>OPINION</b></a>
+                    <br><br>
+                    <a class="mya15" target="_blank" href="https://www.nytimes.com/section/opinion?WT.nav=footer-nav&action=click&contentCollection=Today%27s%20Opinion&module=SiteIndex&pgtype=Homepage&region=SiteIndex">
+                        Today's Opinion
+                    </a>
+                    <br>
+                    <a class="mya15" target="_blank" href="https://www.nytimes.com/section/opinion/columnists?action=click&pgtype=Homepage&region=SiteIndex&module=SiteIndex&contentCollection=Op-Ed%20Columnists&WT.nav=footer-nav">
+                        Op-Ed Columnists
+                    </a>
+            </div>
+            
+            <div class="column4">
+                    <a class="mya14"><b>ARTS</b></a>
+                    <br><br>
+                    <a class="mya15" target="_blank" href="https://www.nytimes.com/section/arts?action=click&pgtype=Homepage&region=SiteIndex&module=SiteIndex&contentCollection=Today%27s%20Arts&WT.nav=footer-nav">
+                        Today's Arts
+                    </a>
+                    <br>
+                    <a class="mya15" target="_blank" href="https://www.nytimes.com/section/arts/design?action=click&pgtype=Homepage&region=SiteIndex&module=SiteIndex&contentCollection=Art%20%26amp%3B%20Design&WT.nav=footer-nav">
+                        Art & Design
+                    </a>
+                    <br>
+                    <a class="mya15" target="_blank" href="https://www.nytimes.com/section/books?action=click&pgtype=Homepage&region=SiteIndex&module=SiteIndex&contentCollection=Books&WT.nav=footer-nav">
+                        Books
+                    </a>
+                    <br>
+                    <a class="mya15" target="_blank" href="https://www.nytimes.com/section/arts/dance?action=click&pgtype=Homepage&region=SiteIndex&module=SiteIndex&contentCollection=Dance&WT.nav=footer-nav">
+                        Dance
+                    </a>
+                    <br>
+                    <a class="mya15" target="_blank" href="https://www.nytimes.com/section/arts/music?action=click&pgtype=Homepage&region=SiteIndex&module=SiteIndex&contentCollection=Music&WT.nav=footer-nav">
+                        Music
+                    </a>
+            </div>
+
+            <div class="column4">
+                    <a class="mya14"><b>LIVING</b></a>
+                    <br><br>
+                    <a class="mya15" target="_blank" href="https://www.nytimes.com/section/automobiles?action=click&pgtype=Homepage&region=SiteIndex&module=SiteIndex&contentCollection=Automobiles&WT.nav=footer-nav">
+                        Automobiles
+                    </a>
+            </div>
+
+            <div class="column4">
+                    <a class="mya14"><b>LISTINGS & MORE</b></a>
+                    <br><br>
+                    <a class="mya15" target="_blank" href="https://www.nytimes.com/section/multimedia?action=click&pgtype=Homepage&region=SiteIndex&module=SiteIndex&contentCollection=Multimedia&WT.nav=footer-nav">
+                        Multimedia
+                    </a>
+                    <br>
+                    <a class="mya15" target="_blank" href="https://www.nytimes.com/section/lens?action=click&pgtype=Homepage&region=SiteIndex&module=SiteIndex&contentCollection=Photography&WT.nav=footer-nav">
+                        Photography
+                    </a>
+            </div>
+            
+            <div class="column">
+                    <a class="mya14"><b>SUBSCRIBE</b></a>
+                    <br><br>
+                    &#128240; 
+                    <a class="mya7" target="_blank" href="https://subscribe.inyt.com/?action=click&pgtype=Homepage&region=SiteIndex&module=SiteIndex&contentCollection=Home%20Delivery&WT.nav=footer-nav">
+                        Home Delivery
+                    </a>
+                    <br>
+                    &#120175;
+                    <a class="mya7" target="_blank" href="https://www.nytimes.com/subscription/inyt/lp87JWF.html?campaignId=6FFJF">
+                         Digital Subscriptions
+                    </a>
+                    <br>
+                    &#9823;
+                    <a class="mya7" target="_blank" href="https://www.nytimes.com/subscription/games/lp897H9.html?campaignId=49W8Y&action=click&pgtype=Homepage&region=SiteIndex&module=SiteIndex&contentCollection=Crossword&WT.nav=footer-nav">
+                         Crossword
+                    </a>  
+                    <br><br>
+                    <a class="mya15" target="_blank" href="https://www.nytimes.com/newsletters">
+                        Email Newsletter
+                    </a>
+                    <br>
+                    <a class="mya15" target="_blank" href="https://myaccount.nytimes.com/mem/tnt.html?action=click&pgtype=Homepage&region=SiteIndex&module=SiteIndex&contentCollection=Alerts&WT.nav=footer-nav">
+                        Alerts
+                    </a>
+                    <br>
+                    <a class="mya15" target="_blank" href="https://www.nytimes.com/subscription/multiproduct/lp8R34X.html?campaignId=6J6K8">
+                        Gift Subscriptions
+                    </a>
+                    <br><br>
+                    <a class="mya15" target="_blank" href="http://www.nytimes.com/services/mobile/index.html?action=click&pgtype=Homepage&region=SiteIndex&module=SiteIndex&contentCollection=Mobile%20Applications&WT.nav=footer-nav">
+                        Mobile Applications
+                    </a>
+                    <br>
+                    <a class="mya15" target="_blank" href="https://account.newspaperdirect.com/epaper/accountingloginse2_nytimes.aspx?__utma=173634359.1556579719.1521548563.1522486836.1522486836.1&__utmb=173634359.0.10.1522486836&__utmc=173634359&__utmx=-&__utmz=173634359.1522486836.1.1.utmcsr%3d(direct)%7cutmccn%3d(direct)%7cutmcmd%3d(none)&__utmv=-&__utmk=84907865">
+                        Replica Edition
+                    </a>
+            </div>
+        </div>
+        <div class="vl14"></div>
+        <div class="ol14"></div>
+        <div class="ol15"></div>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        
+        <nav>
+            &nbsp;&nbsp;
+            <a class="smallwrite3" target="_blank" href="https://help.nytimes.com/hc/en-us/articles/115014792127-Copyright-notice">
+                © 2018 The New York Times Company 
+            </a> 
+            <a class="smallwrite3">&nbsp;&nbsp;|&nbsp;&nbsp;</a> 
+            <a class="smallwrite3" target="_blank" href="https://help.nytimes.com/hc/en-us">
+                Contact Us
+            </a>
+            <a class="smallwrite3">&nbsp;&nbsp;|&nbsp;&nbsp;</a> 
+            <a class="smallwrite3" target="_blank" href="https://www.nytco.com/careers/">
+                Work With Us
+            </a>
+            <a class="smallwrite3">&nbsp;&nbsp;|&nbsp;&nbsp;</a> 
+            <a class="smallwrite3" target="_blank" href="http://nytmediakit.com/">
+                Advertise
+            </a>
+            <a class="smallwrite3">&nbsp;&nbsp;|&nbsp;&nbsp;</a> 
+            <a class="smallwrite3" target="_blank" href="https://help.nytimes.com/hc/en-us/articles/115014892108-Privacy-policy#pp">
+                Your Ad Choices
+            </a>
+            <a class="smallwrite3">&nbsp;&nbsp;|&nbsp;&nbsp;</a> 
+            <a class="smallwrite3" target="_blank" href="https://help.nytimes.com/hc/en-us/articles/115014892108-Privacy-policy">
+                Privacy
+            </a>
+            <a class="smallwrite3">&nbsp;&nbsp;|&nbsp;&nbsp;</a> 
+            <a class="smallwrite3" target="_blank" href="https://help.nytimes.com/hc/en-us/articles/115014893428-Terms-of-service">
+                Terms of Service
+            </a>
+            <a class="smallwrite3">&nbsp;&nbsp;|&nbsp;&nbsp;</a> 
+            <a class="smallwrite3" target="_blank" href="https://help.nytimes.com/hc/en-us/articles/115014893968-Terms-of-sale">
+                Terms of Sale
+            </a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a class="smallwrite3" target="_blank" href="http://spiderbites.nytimes.com/">
+                Site Map
+            </a>
+            <a class="smallwrite3">&nbsp;&nbsp;|&nbsp;&nbsp;</a>
+            <a class="smallwrite3" target="_blank" href="https://help.nytimes.com/hc/en-us">
+                Help
+            </a>
+            <a class="smallwrite3">&nbsp;&nbsp;|&nbsp;&nbsp;</a>
+            <a class="smallwrite3" target="_blank" href="https://help.nytimes.com/hc/en-us/articles/115015385887-Contact-Us?redir=myacc">
+                Site Feedback
+            </a>
+            <a class="smallwrite3">&nbsp;&nbsp;|&nbsp;&nbsp;</a>
+            <a class="smallwrite3" target="_blank" href="https://www.nytimes.com/subscription/inyt/lp87JWF.html?campaignId=6FFJF">
+                Subscriptions
+            </a>
+            
+        </nav>
+        <br><br>
+    </body>
+</html>

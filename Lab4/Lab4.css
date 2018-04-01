@@ -1,0 +1,1021 @@
+.input[type=text] {
+    position: relative;
+    width: 70px;
+    box-sizing: border-box;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: -2px 1px 2px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out; 
+    position: absolute;
+    left: 420px;
+    top: 8px;
+    font-family: "Arial";   
+
+}
+.input[type=text]:focus {
+    width: 15%;
+}
+
+.input[type=text]:hover{
+    background-color: lightgray;
+}
+
+.input2[type=text] {
+    position: relative;
+    width: 306px;
+    box-sizing: border-box;
+    border: none;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: -2px 1px 2px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out; 
+    position: absolute;
+    left: 480px;
+    top: 1290px;
+    font-family: "Arial";   
+    border: steelblue 1px solid;
+}
+
+
+.input2[type=text]:hover{
+    background-color: lightgray;
+}
+
+.searchicon{
+    position: absolute;
+    margin: auto;
+    top: 12px;
+    left: 400px;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin: 0px;
+    top: 5px;
+    left: 620px;
+    color:white;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.button{
+    font-size: 12px;
+    font-family: "Arial";
+    font-weight: bold;
+    background-color: steelblue;
+}
+
+.button:hover{
+    background-color: cornflowerblue;
+}
+
+.loginbutton {
+    position: relative;
+    display: inline-block;
+    margin: auto;
+    top: 5px;
+    left: 630px;
+}
+
+.settingsicon{
+    position: relative;
+    display: inline-block;
+    margin: auto;
+    top: 5px;
+    left: 640px;
+}
+
+button{
+    color: white;
+}
+
+.mybutton{
+    padding: 3px;
+    border: none;
+    background: none;
+    color: black;
+}
+
+.mybutton2{
+    display: -ms-inline-grid;
+    margin-left: 0px;
+}
+
+.settingsicon:hover{
+    background-color: lightgray;
+}
+
+.divnav{
+    margin-top: 1px;
+    font-size: 10px;
+    font-family: "Arial";
+    border: 0.5px solid black;
+    border-bottom: 0px;
+    border-left: 10%;
+    padding: 5px;
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin-left: 380px;
+    margin-right: 380px;
+}
+
+.divnavsec{
+    font-family: "Arial";
+}
+
+.divnavsec:hover{
+    text-decoration: underline;
+}
+
+.divnav2{
+    font-size: 13px;
+    font-family: "Arial";
+    display: inline;
+}
+
+.divnav2Hover:hover{
+    text-decoration: underline;
+}
+
+.divnav3Hover:hover{
+    background-color: lightgray;
+}
+
+.divnav3{
+    font-size: 13px;
+    font-family: "Arial";
+    display: inline;
+}
+
+.divnav3:hover .dropdown-content2{
+    display: block;
+}
+
+.divnav4{
+    font-size: 13px;
+    font-family: "Arial";
+    display: inline;
+}
+
+
+.divnav4Hover:hover{
+    background-color: lightgray;
+}
+
+.divnav4:hover .dropdown-content3{
+    display: block;
+}
+
+
+.dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    left: 800px;
+}
+
+
+.dropdown-content3 {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    left: 900px;
+}
+
+a:active{
+    font-weight: bold;
+}
+
+.margindiv{
+    margin-left: 250px;
+    margin-right: 250px;
+    color: black;
+}
+
+.h1settings{
+    font-size: 20px;
+    font-size: 3.00rem;
+    line-height: 22px;
+    line-height: 1.375rem;
+    font-weight: 1000;
+    font-style: normal;
+    font-family: "Old English Text MT";
+}
+
+.h2settings{
+    font-size: 20px;
+    font-size: 2.00rem;
+    line-height: 22px;
+    line-height: 1.375rem;
+    font-weight: 1000;
+    font-style: normal;
+    font-family: "Old English Text MT";
+}
+
+.changeBackground{
+    font-size: 12px;
+    font-family: "Arial";
+}
+
+.changeBackground:hover{
+    background-color: lightgray;
+}
+
+a:link{
+    text-decoration: none
+}
+
+.column {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    height: 300px;
+}
+
+.column2{
+    float: left;
+    width: 40%;
+    padding: 10px;
+    height: 300px;
+}
+
+
+.column3{
+    float: left; 
+    width: 50% ;
+    padding: 5%;
+    height: 150px;
+}
+
+.column4 {
+    float: left;
+    width: 16%;
+    padding: 10px;
+    height: 300px;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    display: inline;
+}
+
+.vl1 {
+    border-left: 1px solid lightgray;
+    height: 970px;
+    position: absolute;
+    left: 455px;
+    margin-left: -3px;
+    top: 346px;
+}
+
+.vl2 {
+    border-left: 1px solid lightgray;
+    height: 1300px;
+    position: absolute;
+    left: 870px;
+    margin-left: -3px;
+    top: 346px;
+}
+
+.vl3 {
+    border-left: 1px solid lightgray;
+    height: 290px;
+    position: absolute;
+    left: 1080px;
+    margin-left: -3px;
+    top: 376px;
+}
+
+.vl4 {
+    border-left: 1px solid lightgray;
+    height: 90px;
+    position: absolute;
+    left: 1080px;
+    margin-left: -3px;
+    top: 690px;
+}
+
+.vl5{
+    border-left: 1px solid lightgray;
+    height: 290px;
+    position: absolute;
+    left: 455px;
+    margin-left: -3px;
+    top: 1357px;
+}
+
+.vl6{
+    border-left: 1px solid lightgray;
+    height: 290px;
+    position: absolute;
+    left: 655px;
+    margin-left: -3px;
+    top: 1357px;
+}
+
+.vl7{
+    border-left: 1px solid lightgray;
+    height: 230px;
+    position: absolute;
+    left: 440px;
+    margin-left: -3px;
+    top: 2410px;
+}
+
+.vl8{
+    border-left: 1px solid lightgray;
+    height: 230px;
+    position: absolute;
+    left: 655px;
+    margin-left: -3px;
+    top: 2410px;
+}
+
+.vl9{
+    border-left: 1px solid lightgray;
+    height: 230px;
+    position: absolute;
+    left: 865px;
+    margin-left: -3px;
+    top: 2410px;
+}
+
+.vl10{
+    border-left: 1px solid lightgray;
+    height: 230px;
+    position: absolute;
+    left: 1055px;
+    margin-left: -3px;
+    top: 2410px;
+}
+
+
+.vl11{
+    border-left: 1px solid lightgray;
+    height: 350px;
+    position: absolute;
+    left: 875px;
+    margin-left: -3px;
+    top: 2705px;
+}
+
+.vl12{
+    border-left: 1px solid lightgray;
+    height: 250px;
+    position: absolute;
+    left: 460px;
+    margin-left: -3px;
+    top: 2715px;
+}
+
+.vl13{
+    border-left: 1px solid lightgray;
+    height: 250px;
+    position: absolute;
+    left: 665px;
+    margin-left: -3px;
+    top: 2715px;
+}
+
+.vl14{
+    border-left: 1px solid lightgray;
+    height: 250px;
+    position: absolute;
+    left: 1070px;
+    margin-left: -3px;
+    top: 3250px;
+}
+
+.ol{
+    border-top: 3px solid black;
+    width: 1040px;
+    position: absolute;
+    left: 260px;
+    margin-left: -3px;
+    top: 1657px;
+}
+
+.ol2{
+    border-top: 1px solid lightgray;
+    width: 1040px;
+    position: absolute;
+    left: 260px;
+    margin-left: -3px;
+    top: 2257px;
+}
+
+.ol3{
+    border-top: 1px solid lightgray;
+    width: 1040px;
+    position: absolute;
+    left: 260px;
+    margin-left: -3px;
+    top: 2261px;
+}
+
+.ol4{
+    border-top: 1px solid lightgray;
+    width: 1040px;
+    position: absolute;
+    left: 260px;
+    margin-left: -3px;
+    top: 1697px;
+}
+
+.ol5{
+    border-top: 1px solid lightgray;
+    width: 420px;
+    position: absolute;
+    left: 880px;
+    margin-left: -3px;
+    top: 1300px;
+}
+
+
+.ol6{
+    border-top: 1px solid lightgray;
+    width: 420px;
+    position: absolute;
+    left: 880px;
+    margin-left: -3px;
+    top: 835px;
+}
+
+.ol7{
+    border-top: 2px solid black;
+    width: 1040px;
+    position: absolute;
+    left: 260px;
+    margin-left: -3px;
+    top: 2661px;
+}
+
+.ol8{
+    border-top: 1px solid lightgray;
+    width: 413px;
+    position: absolute;
+    left: 887px;
+    margin-left: -3px;
+    top: 2705px;
+}
+
+.ol9{
+    border-top: 1px solid lightgray;
+    width: 413px;
+    position: absolute;
+    left: 887px;
+    margin-left: -3px;
+    top: 2708px;
+}
+
+.ol10{
+    border-top: 1px solid lightgray;
+    width: 600px;
+    position: absolute;
+    left: 260px;
+    margin-left: -3px;
+    top: 2980px;
+}
+
+.ol11{
+    border-top: 1px solid lightgray;
+    width: 1040px;
+    position: absolute;
+    left: 260px;
+    margin-left: -3px;
+    top: 3080px;
+}
+
+.ol12{
+    border-top: 1px solid lightgray;
+    width: 1040px;
+    position: absolute;
+    left: 260px;
+    margin-left: -3px;
+    top: 3150px;
+}
+
+.ol13{
+    border-top: 1px solid lightgray;
+    width: 1040px;
+    position: absolute;
+    left: 260px;
+    margin-left: -3px;
+    top: 3154px;
+}
+
+
+.ol14{
+    border-top: 1px solid lightgray;
+    width: 1040px;
+    position: absolute;
+    left: 260px;
+    margin-left: -3px;
+    top: 3535px;
+}
+
+.ol15{
+    border-top: 1px solid lightgray;
+    width: 180px;
+    position: absolute;
+    left: 1080px;
+    margin-left: -3px;
+    top: 3435px;
+}
+
+
+
+
+.smallwrite{
+    font-size: 9px;
+    font-family: "Arial";
+    color: gray;
+    line-height: normal;
+}
+
+.smallwrite2{
+    font-size: 10px;
+    font-family: "Arial";
+    color: gray;
+    line-height: 20px;
+}
+
+.smallwrite3{
+    font-size: 9px;
+    font-family: "Arial";
+    color: gray;
+    line-height: normal;
+}
+
+.smallwrite3:hover{
+    text-decoration: underline;
+}
+
+
+.smallwrite4{
+    font-size: 9px;
+    font-family: "Arial";
+    color: gray;
+    line-height: normal;
+    display: inline;
+    text-align: right;
+}
+
+.smallwrite4:hover{
+    text-decoration: underline;
+}
+
+.smallwrite5{
+    font-size: 12px;
+    font-family: "Arial";
+    color: cornflowerblue;
+    line-height: normal;
+    display: inline;
+    text-align: right;
+}
+
+.smallwrite5:hover{
+    text-decoration: underline;
+}
+
+.myul{
+    font-size: 14px;
+    font-family: "Times New Roman";
+    position:relative;
+    margin-left:-27px;
+    line-height: normal;
+}
+
+.ulhover{
+    font-size: 13px;
+    font-weight: bold;
+    font-family: "Times New Roman";
+}
+
+.ulhover:hover{
+    text-decoration: underline;
+}
+
+.mya{
+    font-size: 22px;
+    font-family: "Baskerville Old Face";
+    font-weight: bold;
+    font-style: italic;
+    line-height: normal;
+}
+
+.mya:hover{
+    text-decoration: underline;
+}
+
+.mya2{
+    font-size: 12px;
+    font-family: "Arial";
+    font-weight: bold;  
+    line-height: normal;
+    text-decoration: underline;
+    text-decoration-color: lightgray;
+}
+
+.mya2:hover{
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+.mya2:link{
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-decoration-style: solid;
+}
+
+
+.mya3{
+    font-size: 14px;
+    font-family: "Arial";
+    line-height: normal;
+    margin-left: -23px;
+}
+
+.mya3:hover{
+    text-decoration: underline;
+}  
+
+.myimg{
+    float: right;
+}
+
+.myimgleft{
+    float: left;
+}
+
+.myp{
+    margin-left: 8px;
+}
+
+.mya4{
+    font-size: 14px;
+    font-family: "Arial";
+    line-height: normal;
+    
+    font-weight: bold;  
+}
+
+.mya4:hover {
+    font-weight: bold;  
+    text-decoration: underline;
+}
+
+
+.mya5{
+    font-size: 12px;
+    font-family: "Arial";
+    line-height: normal;
+}
+
+.mya6{
+    font-size: 18px;
+    font-family: "Times New Roman";
+    line-height: normal;
+}
+
+.mya7{
+    font-size: 17px;
+    font-family: "Times New Roman";
+    line-height: normal;
+    font-weight: bold;
+}
+.mya7:hover{
+    text-decoration: underline;
+}
+
+.mya6:hover{
+    text-decoration: underline;
+}
+
+.mya8{
+    font-size: 12px;
+    font-family: "Times New Roman";
+    line-height: normal;
+    font-weight: bold;
+}
+
+.mya8:hover{
+    text-decoration: underline;
+}
+
+.mya9{
+    font-size: 15px;
+    font-family: "Times New Roman";
+    line-height: normal;
+    font-weight: bold;
+}
+
+.mya10{
+    font-size: 15px;
+    font-family: "Times New Roman";
+    line-height: normal;
+}
+
+.mya11{
+    font-size: 12px;
+    font-family: "Times New Roman";
+    line-height: normal;
+    color: blue;
+}
+
+.mya11:link{
+    color: blue;
+}
+
+.mya11:hover{
+    text-decoration: underline;
+}
+
+
+.mya12{
+    font-size: 14px;
+    font-family: "Times New Roman";
+    line-height: normal;
+    font-weight: bold;
+}
+.mya12:hover{
+    text-decoration: underline;
+}
+
+.mya13{
+    font-size: 15px;
+    font-family: "Times New Roman";
+    margin-left: 630px;
+    margin-top: 130px;
+}
+
+.mya14{
+    font-size: 14px;
+    font-family: "Times New Roman";
+    line-height: normal;
+}
+
+
+.mya15{
+    font-size: 14px;
+    font-family: "Times New Roman";
+    line-height: normal;
+}
+
+.mya15:hover{
+    text-decoration: underline;
+}
+
+.mya16{
+    font-size: 16px;
+    font-family: "Times New Roman";
+    line-height: normal;
+    font-weight: bold;
+}
+
+.mya16:hover{
+    text-decoration: underline;
+}
+
+.mydiv2{
+    margin-left: 10px;
+}
+
+
+
+.myp2{
+    font-size: 15px;
+    font-family: "Times New Roman";
+    line-height: normal;
+    margin-left: 8px;
+    margin-top: -1px;
+}
+
+.margintop{
+    margin-top: 10px;
+}
+
+.doubleLine{
+    color: gray;
+}
+
+.colli{
+    font-size: 14px;
+    font-family: "Times New Roman";
+    line-height: normal; 
+    font-weight: bold;
+}
+
+.colli:hover{
+    text-decoration: underline;
+}
+
+
+#slideshow {
+    overflow: hidden;
+    height: 240px;;
+    width: 395px;
+    margin-left: 0px;
+  }
+  
+.slide-wrapper {
+    width: 1200px;
+    -webkit-animation: slide 14s ease infinite;
+}
+  
+.slide {
+    margin-left: -180px;
+    float: left;
+    height: 510px;
+    width: 728px;
+}
+  
+@keyframes slide {
+    20% {margin-left: 0px;}
+    30% {margin-left: -528px;}
+    50% {margin-left: -528px;}
+    60% {margin-left: 0px;}
+}
+
+.inline{
+    display: inline;
+}
+
+
+
+
+.myp3{
+    font-size: 12px;
+    font-family: "Arial";
+}
+
+
+.onclick-menu {
+    position: relative;
+    display: inline-block;
+    top: 5px;
+    left: 15px;
+}
+.onclick-menu:before {
+    content: "☰ SECTIONS";
+}
+.onclick-menu:focus {
+    pointer-events: none;
+}
+.onclick-menu:focus .onclick-menu-content {
+    opacity: 2;
+    visibility: visible;    
+    pointer-events: auto;
+}
+.onclick-menu-content {
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    transition: visibility 0.5s;
+}
+
+
+
+
+
+.onclick-settings {
+    position: relative;
+    display: inline-block;
+    top: 5px;
+}
+.onclick-settings:before {
+    content:"";
+    
+}
+.onclick-settings:focus {
+    pointer-events: none;
+}
+.onclick-settings:focus .onclick-menu-content {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+.onclick-settings-content {
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    transition: visibility 0.5s;
+}
+
+.myi{
+    margin-left: 650px;
+    display: inline;
+    font-size: 24px;
+}
+
+.mydiv{
+    height: 100px;
+    width: 390px;
+    font-size: 15px;
+    font-family: "Times New Roman";
+    background-color: white;
+    padding-top: 0em;
+    padding-bottom: 0.7em;
+    border: 0px;
+    display:block;
+}
+
+.mydiv:hover{
+    background-color: lightgray;
+}
+
+
+.myscroll{
+    background-color: white;
+    width: 420px;
+    height: 450px;
+    overflow: auto;
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    background: steelblue; 
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: cornflowerblue; 
+}
+
+.button2{
+    font-size: 12px;
+    font-family: "Arial";
+    font-weight: bold;
+    background-color: steelblue;
+    margin-left: 320px;
+    margin-top: 14px;
+}
+
+.button2:hover{
+    background-color: cornflowerblue;
+}
+
+.times{
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.video{
+    color: red;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.scroll2{
+    background-color: white;
+    width: 230px;
+    height: 520px;
+    overflow: auto;
+    margin-left: 815px;
+    margin-top: -999px;
+}
+
+.makemargin{
+    margin-left: 50px;
+    margin-top: 20px;
+}
