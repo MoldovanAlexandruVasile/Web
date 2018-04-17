@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="Lab7.css">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        </head>
+    <body>
+        <script>
+            jQuery.fn.highlight = function(pat) {
+             function innerHighlight(node, pat) {
+             var skip = 0;
+             if (node.nodeType == 3) {
+             var pos = node.data.toUpperCase().indexOf(pat);
+             if (pos >= 0) {
+             var spannode = document.createElement('span');
+             spannode.className = 'highlight';
+             var middlebit = node.splitText(pos);
+             var endbit = middlebit.splitText(pat.length);
+             var middleclone = middlebit.cloneNode(true);
+             spannode.appendChild(middleclone);
+             middlebit.parentNode.replaceChild(spannode, middlebit);
+             skip = 1;
+             }
+             }
+             else if (node.nodeType == 1 && node.childNodes && !/(script|style)/i.test(node.tagName)) {
+             for (var i = 0; i < node.childNodes.length; ++i) {
+             i += innerHighlight(node.childNodes[i], pat);
+             }
+             }
+             return skip;
+             }
+             return this.each(function() {
+             innerHighlight(this, pat.toUpperCase());
+             });
+            };
+            jQuery.fn.removeHighlight = function() {
+             return this.find("span.highlight").each(function() {
+             this.parentNode.firstChild.nodeName;
+             with (this.parentNode) {
+             replaceChild(this.firstChild, this);
+             normalize();
+             }
+             }).end();
+            };
+            
+            // function to get selected text in a webpage
+            function getSelText() {
+             var seltxt = ''; // store selected text
+            
+             // get selected text
+             if (window.getSelection) {
+             seltxt = window.getSelection();
+             } else if (document.getSelection) {
+             seltxt = document.getSelection();
+             } else if (document.selection) {
+             seltxt = document.selection.createRange().text;
+             }
+             return seltxt;
+            }
+            </script>
+            <script>
+            $(document).ready(function() {
+             // when double click on BODY area
+             $('body').dblclick(function() {
+             var seltxt = getSelText(); // get selected text
+             seltxt = $.trim(seltxt); // remove the whitespace from the beginning and end of "seltxt"
+             $(this).removeHighlight().highlight(seltxt); // calls the function that anulate and highlight
+             });
+            });
+            </script>
+
+
+            <p> 
+                Linia de demarcație în Transilvania (1918-1919) <br>
+                Linia de demarcație în Transilvania în intervalul 1918-1919 a reprezentat o prelungirea geografică în spațiul transilvan a liniei convenționale cu rol de delimitare a zonei de contact dintre trupele Antantei victorioase și cele ale Ungariei învinse – ca stat succesor al Imperiului Austro-Ungar. Această linie a avut un scop strict militar de separare geografică provizorie, urmând ca linia politică definitivă de demarcație (frontiera) să fie fixată prin tratativele de pace ulterioare.
+                
+                Evoluția liniei de demarcație între trupele ungare și cele române a consemnat 4 aliniamente succesive, deplasate progresiv spre vest. Contextul a fost reprezentat de obiectivele postbelice fundamental antagonice ale politicilor taberelor maghiară și română, anume menținerea integrării teritoriale a Ungariei și, în mod deosebit, păstrarea Transilvaniei – de partea maghiară (cel puțin până la momentul unor decizii teritoriale ferme ale Conferinței de Pace), respectiv preluarea puterii statale în Transilvania și maximalizarea gradului de ocupare militară a teritoriului, pentru a asigura succesul solicitărilor teritoriale – de partea română.
+                
+                Un prim aliniament delimitat la nord de cursul Someșului Mare, ulterior răsfrânt spre Târgu Mureș – astfel încât să urmeze cursul Mureșului până la vărsarea în Tisa, a fost consemnat la 13 noiembrie 1918 la Belgrad, printr-o Convenție militară de armistițiu. Deoarece România semnase anterior o pace separată cu inamicul, fiind considerată astfel un stat necombatant, n-a fost invitată la semnarea respectivei Convenții și nici nu i s-a cerut părerea în ceea ce privește prevederile ei. Românii nu s-au împăcat însă niciodată cu unele prevederi ale acestui act, mai ales cu cele care au avut ca subiect trasarea liniei de demarcație și menținerea administrației transilvănene sub control ungar. Considerate totuși mai târziu aliate, trupele române au trecut Carpații Orientali și, fără incidente majore, au ocupat până la 15 decembrie aliniamentul desemnat, în pofida demersurilor politice, diplomatice și militare făcute de guvernul ungar, cu speranța împiedicării instituirii controlului militar românesc în Transilvania.
+                
+                Mai puternică militar în acel moment și mai agresivă, ca urmare a unor tratative duse cu sprijinul generalului francez Berthelot România și-a deplasat trupele până la aliniamentul Baia-Mare - Dej - Cluj - Deva, ocupându-l deja pe data de 24 decembrie 1918. Deși în faza inițială structurile de conducere ungare locale au refuzat să retragă soldații mobilizați între timp pentru a face față înaintării române, guvernul Ungariei și-a dat în final, acordul pentru aceasta. Conducerea aparatului administrativ regional maghiar, precum și comandamentul său militar au rămas însă pe loc, într-un act simbolic dorit a semnaliza continuitatea juridică, iar trupele ungare au început să se concentreze în nord-estul depresiunii transilvane.
+                
+                Forțele armate române au continuat să preseze încet înainte și, ca urmare a eforturilor Guvernului României și ale Consiliului Dirigent, linia de demarcație a fost mutată pe linia Sighetu Marmației-Baia Mare-Zalău-Ciucea-Zam, aliniament pe care trupele s-au oprit în 22 ianuarie 1919, la ordinul aliaților francezi. Iarna care a urmat a fost folosită pentru organizarea și antrenarea temeinică a trupelor române din Transilvania, dar incapacitatea Antantei de a respecta acordurile încheiate, precum și avansul constant pe teren al trupelor române au determinat însă guvernul ungar să ia în considerare posibilitatea de rezistență armată. O nouă armată maghiară s-a constituit pe resturile celei vechi și, drept consecință, de-a lungul liniei de demarcație incidentele armate în care au fost implicate trupele ungare și române s-au multiplicat semnificativ, căpătând aspectul unor lupte cu anvergură locală.
+                
+                La 26 februarie, într-un context în care România a devenit un factor semnificativ al planurilor comandanților militari francezi de intervenție împotriva Rusiei Sovietice, Conferința de Pace a trasat o nouă linie de demarcație aflată între Satu-Mare și Arad. Comunicarea noii decizii către guvernul maghiar a căpătat însă, în contextul deteriorării rapide a situație militare aliate din Ucraina un caracter ultimativ, ducând la o criză politică ungară finalizată cu instalarea unui guvern comunist la Budapesta. Decizia s-a dovedit inacceptabilă pentru oficialii maghiari, noul regim considerându-se în stare de război cu România. În Ungaria a fost decretată mobilizarea generală și statul maghiar a căutat să colaboreze militar cu Rusia bolșevică printr-o alianță ofensivă și defensivă. Ultimele tentative de negociere au eșuat, astfel că la 16 aprilie 1919, trupele române au declanșat o ofensivă generală pentru a avansa dincolo de vestul Munților Apuseni.
+            </p>
+    </body>
+</html>
