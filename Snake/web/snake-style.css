@@ -1,0 +1,17 @@
+#container {
+    position: relative;
+    width: 600px;
+    height: 300px;
+    border: 1px solid black;
+    margin: 0 auto;
+    background-color: white;
+}
+
+#body_snake {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 10px;
+    top: 150px;
+    background-color: green;
+}
