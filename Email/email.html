@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Send E-Mail</title>
+        <link rel="stylesheet" type="text/css" href="email.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="contact-title">
+            <h2>We are always ready to serve you !</h2>
+        </div>
+        <div class="contact-form">
+            <form id="contact-form" method="POST" action="email.php">
+                <input name="name" type="text" class="form-control"
+                    placeholder="Your name:">
+                    <br>
+                    <input name="email" type="email" class="form-control"
+                    placeholder="Your E-mail:" required>
+                    <br>
+                    <textarea name="message" class="form-control"
+                    placeholder="Message" row="4" required></textarea>
+                    <br>
+                    <input type="submit" class="form-control submit" value="Send Message">
+            </form>
+        </div>
+    </body>
+</html>
